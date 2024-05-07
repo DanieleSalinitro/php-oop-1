@@ -18,7 +18,7 @@ Facciamo attenzione all’organizzazione del codice, suddividendolo in appositi 
 
 
 
-<!-- LIBRI [ -->
+<!-- LIBRI [ --> id, title, isbn, pageCount, thumbnailUrl, shortDescription, longDescription, status, authors
     {
     "_id": 1,
     "title": "Unlocking Android",
@@ -234,7 +234,7 @@ Facciamo attenzione all’organizzazione del codice, suddividendolo in appositi 
 }
 ]
 
-<!-- FILM -->
+<!-- FILM --> id, title, thumbnailUrl, shortDescription, authors
  [
         {
             "adult": false,
