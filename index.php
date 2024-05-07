@@ -12,11 +12,15 @@ $books=[
     new Book('Unlocking Android','8,99','3,5','https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ableson.jpg','416'),
     new Book('Distributed Application Development with PowerBuilder 6.0','10,99','2,5','https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ableson.jpg','504')
 ];
-
 ?>
 
 <main>
-    main
+    <h2>Movies</h2>
+    <?php foreach ($movies as $movie) { ?>
+    <div>
+        <?php showMovie();?>
+    </div>
+    <?php } ?>
 </main>
 
 <?php
